@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { services } from '@/components/ServicesSection';
@@ -18,9 +17,9 @@ const ServiceDetail = () => {
 
   // Map service ID to image path - these could be stored in the service objects instead
   const serviceImages = {
-    'indoor-tiling': '/lovable-uploads/tiling4.jpg',
-    'outdoor-tiling': '/lovable-uploads/ec3a22fa-5536-45c1-b37c-2b19541595f3.png',
-    'waterproofing': '/lovable-uploads/tiling3.jpg'
+    'new-builds': '/lovable-uploads/builder3.jpg',
+    'renovations': '/lovable-uploads/builder4.jpg',
+    'repairs-maintenance': '/lovable-uploads/tiling3.jpg'
   };
 
   const imagePath = serviceImages[service.id as keyof typeof serviceImages] || '/placeholder.svg';
@@ -52,7 +51,7 @@ const ServiceDetail = () => {
             <div className="mb-8 rounded-lg overflow-hidden shadow-md">
               <img 
                 src={imagePath} 
-                alt={`${service.title} service by Auckland Tiling`}
+                alt={`${service.title} service by Auckland Building`}
                 className="w-full h-64 md:h-96 object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -67,7 +66,7 @@ const ServiceDetail = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-brand-blue mr-2">✓</span>
-                    <span>Professional installation by certified tilers</span>
+                    <span>Professional service by certified builders</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-blue mr-2">✓</span>

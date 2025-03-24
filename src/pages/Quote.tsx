@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -65,7 +64,7 @@ const Quote = () => {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Get a Custom Quote</h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
           Fill out the form below and our expert team will prepare a personalized 
-          quote for your tiling project.
+          quote for your building project.
         </p>
       </div>
 
@@ -75,7 +74,7 @@ const Quote = () => {
             <CardHeader>
               <CardTitle>Project Details</CardTitle>
               <CardDescription>
-                Please provide the details of your tiling project so we can give you an accurate quote.
+                Please provide the details of your building project so we can give you an accurate quote.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -179,12 +178,13 @@ const Quote = () => {
                             {...field}
                           >
                             <option value="">Select a project type</option>
-                            <option value="bathroom">Bathroom Tiling</option>
-                            <option value="kitchen">Kitchen Tiling</option>
-                            <option value="outdoor">Outdoor Tiling</option>
-                            <option value="floor">Floor Tiling</option>
-                            <option value="wall">Wall Tiling</option>
-                            <option value="commercial">Commercial Tiling</option>
+                            <option value="new-build">New Build</option>
+                            <option value="home-renovation">Home Renovation</option>
+                            <option value="kitchen-renovation">Kitchen Renovation</option>
+                            <option value="bathroom-renovation">Bathroom Renovation</option>
+                            <option value="extension">Home Extension</option>
+                            <option value="repairs">Repairs & Maintenance</option>
+                            <option value="commercial">Commercial Construction</option>
                             <option value="other">Other</option>
                           </select>
                         </FormControl>
@@ -332,7 +332,7 @@ const Quote = () => {
                 </div>
                 <div>
                   <h3 className="text-gray-700 font-semibold">Phone</h3>
-                  <p className="text-brand-blue font-medium">0800 TILING</p>
+                  <p className="text-brand-blue font-medium">0800 BUILDING</p>
                 </div>
               </div>
               
@@ -342,7 +342,7 @@ const Quote = () => {
                 </div>
                 <div>
                   <h3 className="text-gray-700 font-semibold">Email</h3>
-                  <p className="text-brand-blue font-medium">info@aucklandtilingexperts.co.nz</p>
+                  <p className="text-brand-blue font-medium">info@aucklandbuilding.co.nz</p>
                 </div>
               </div>
 

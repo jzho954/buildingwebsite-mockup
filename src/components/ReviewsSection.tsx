@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import ScrollAnimation from './ScrollAnimation';
@@ -16,19 +15,19 @@ interface ReviewCardProps {
 
 const reviews = [
   {
-    "content": "The team at Auckland Tiling did an amazing job on my bathroom renovation. The tiles look stunning, and the attention to detail was spot on. They finished on time and left the space spotless. Highly recommend!",
+    "content": "The team at Auckland Building did an amazing job on my home renovation. The craftsmanship looks stunning, and the attention to detail was spot on. They finished on time and left the space spotless. Highly recommend!",
     "author": "Sarah",
     "location": "West Auckland",
     "rating": 5
   },
   {
-    "content": "Auckland Tiling transformed our kitchen with a beautiful backsplash and floor tiles. The work was top-notch, with no corners cut, and the end result is absolutely perfect. They were professional and easy to work with. Couldn't be happier!",
+    "content": "Auckland Building transformed our kitchen with a beautiful modern design. The work was top-notch, with no corners cut, and the end result is absolutely perfect. They were professional and easy to work with. Couldn't be happier!",
     "author": "James",
     "location": "West Auckland",
     "rating": 5
   },
   {
-    "content": "The team did a fantastic job tiling our outdoor patio, even with tricky weather conditions. They handled everything from prep to laying the tiles perfectly. Communication was great, and they adjusted timelines as needed. Really impressed with the quality!",
+    "content": "The team did a fantastic job building our outdoor patio, even with tricky weather conditions. They handled everything from prep to finishing touches perfectly. Communication was great, and they adjusted timelines as needed. Really impressed with the quality!",
     "author": "Emma",
     "location": "Central Auckland",
     "rating": 5

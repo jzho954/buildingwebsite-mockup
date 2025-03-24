@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -11,7 +10,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: "url('/lovable-uploads/tiling.jpg')",
+          backgroundImage: "url('/lovable-uploads/builder2.jpg')",
           backgroundPosition: "center center",
           filter: "brightness(0.7)"
         }}
@@ -31,10 +30,10 @@ const HeroSection = () => {
             <span className="text-brand-blue">
               <TextRotate
                 texts={[
-                  "Bathroom",
-                  "Kitchen",
+                  "Home",
+                  "Property",
                   "Living Space",
-                  "Outdoor Area"
+                  "Business"
                 ]}
                 mainClassName="inline-block overflow-hidden"
                 staggerDuration={0.03}
@@ -51,8 +50,8 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Tiles Auckland delivers premium tiling solutions across Auckland, 
-            creating beautiful, functional spaces since 2010.
+            Auckland Building delivers premium construction, renovation and repair solutions 
+            across Auckland, creating beautiful, functional spaces since 2010.
           </motion.p>
         </div>
 

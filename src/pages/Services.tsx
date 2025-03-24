@@ -26,17 +26,17 @@ const Services = () => {
           >
             <h1 className="text-3xl md:text-4xl font-bold text-brand-blue mb-8">Our Services</h1>
             <p className="text-lg text-gray-700 mb-12 max-w-3xl">
-              Auckland Tiling offers professional tiling and waterproofing services across Auckland. 
-              Our team of experienced tilers delivers high-quality results for both residential and commercial projects.
+              Auckland Building offers professional construction, renovation, and repair services across Auckland. 
+              Our team of experienced builders delivers high-quality results for both residential and commercial projects.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {services.map((service, index) => {
                 // Map service ID to image path
                 const serviceImages = {
-                  'indoor-tiling': '/lovable-uploads/tiling4.jpg',
-                  'outdoor-tiling': '/lovable-uploads/ec3a22fa-5536-45c1-b37c-2b19541595f3.png',
-                  'waterproofing': '/lovable-uploads/tiling3.jpg'
+                  'new-builds': '/lovable-uploads/builder3.jpg',
+                  'renovations': '/lovable-uploads/builder4.jpg',
+                  'repairs-maintenance': '/lovable-uploads/tiling3.jpg'
                 };
                 
                 const imagePath = serviceImages[service.id as keyof typeof serviceImages] || '/placeholder.svg';

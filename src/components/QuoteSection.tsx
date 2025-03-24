@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -52,10 +51,10 @@ const QuoteSection = () => {
           <ScrollAnimation animation="fade-in-left">
             <div className="pr-0 lg:pr-12">
               <p className="uppercase text-primary font-semibold tracking-wider mb-2">GET IN TOUCH</p>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Let's Start Your Tiling Project</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Let's Start Your Building Project</h2>
               <p className="text-gray-600 text-lg mb-10">
                 Ready to transform your space? Fill out the form and our team will 
-                get back to you promptly to discuss your tiling needs.
+                get back to you promptly to discuss your building, renovation or repair needs.
               </p>
               
               <div className="space-y-6">
@@ -65,7 +64,7 @@ const QuoteSection = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-700 font-semibold">Phone</h3>
-                    <p className="text-primary font-medium">0800 TILING</p>
+                    <p className="text-primary font-medium">0800 BUILDING</p>
                   </div>
                 </div>
                 
@@ -75,7 +74,7 @@ const QuoteSection = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-700 font-semibold">Email</h3>
-                    <p className="text-primary font-medium">info@aucklandtilingexperts.co.nz</p>
+                    <p className="text-primary font-medium">info@aucklandbuilding.co.nz</p>
                   </div>
                 </div>
               </div>
@@ -152,7 +151,7 @@ const QuoteSection = () => {
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="Tell us about your tiling project"
+                      placeholder="Tell us about your building project"
                       rows={4}
                       required
                       value={formData.message}

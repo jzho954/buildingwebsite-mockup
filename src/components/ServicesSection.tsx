@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import ScrollAnimation from './ScrollAnimation';
 import { Link } from 'react-router-dom';
-import { ArrowRight, PaintRoller, Hammer, Droplets } from 'lucide-react';
+import { ArrowRight, Home, Hammer, Wrench } from 'lucide-react';
 
 export interface Service {
   id: string;
@@ -16,28 +15,28 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: "indoor-tiling",
-    title: "Indoor Tiling",
-    description: "Transform your kitchens, bathrooms, and living areas with stunning tiles. We specialize in intricate patterns and designs that elevate Auckland homes.",
+    id: "new-builds",
+    title: "New Builds",
+    description: "Create your dream home from the ground up. We specialize in high-quality residential and commercial construction that meets Auckland's unique requirements.",
+    icon: <Home className="w-10 h-10 text-brand-blue" />,
+    imagePath: "/lovable-uploads/builder3.jpg",
+    detailDescription: "Our new build service covers all aspects of construction, from initial design consultation to final handover. We work with trusted architects and designers to create homes that perfectly suit your lifestyle and budget. Our team handles everything from foundation work to interior finishing, ensuring a seamless building process. We pride ourselves on quality craftsmanship, using premium materials and maintaining strict adherence to New Zealand building codes and standards."
+  },
+  {
+    id: "renovations",
+    title: "Renovations",
+    description: "Transform and modernize your existing property. From kitchen and bathroom renovations to full home makeovers, we bring new life to Auckland properties.",
     icon: <Hammer className="w-10 h-10 text-brand-blue" />,
-    imagePath: "/lovable-uploads/43ddcf7c-d006-4a57-ba92-2a089682b03a.png",
-    detailDescription: "Our indoor tiling service covers all aspects of interior tiling, from kitchen backsplashes to bathroom floors and walls. We work with a wide range of materials including ceramic, porcelain, natural stone, and mosaic tiles. Our team specializes in creating custom patterns and designs that complement your home's aesthetic. We handle everything from surface preparation to grouting and sealing, ensuring a flawless finish that will last for years to come."
+    imagePath: "/lovable-uploads/builder4.jpg",
+    detailDescription: "Our renovation services are designed to enhance your property's functionality, aesthetic appeal, and value. Whether you're looking to update a single room or undertake a complete home transformation, our experienced team will guide you through every step. We specialize in kitchen and bathroom renovations, home extensions, open-plan conversions, and character property restorations. Our approach combines respect for your property's original features with modern design principles and building techniques."
   },
   {
-    id: "outdoor-tiling",
-    title: "Outdoor Tiling",
-    description: "Weather-resistant tiling for patios, pool surrounds, and outdoor living spaces. Durable solutions perfect for Auckland's varied climate.",
-    icon: <PaintRoller className="w-10 h-10 text-brand-blue" />,
-    imagePath: "/lovable-uploads/ec3a22fa-5536-45c1-b37c-2b19541595f3.png",
-    detailDescription: "Our outdoor tiling solutions are designed to withstand Auckland's weather conditions while enhancing your exterior spaces. We install slip-resistant tiles for pool areas, frost-resistant options for patios, and decorative tiles for garden paths. Our team selects materials that can endure UV exposure, temperature fluctuations, and moisture without compromising on style. We ensure proper drainage installation and use specialized outdoor grouts and sealants to protect your investment for years to come."
-  },
-  {
-    id: "waterproofing",
-    title: "Waterproofing",
-    description: "Expert waterproofing services for bathrooms, showers, and wet areas. Essential protection for Auckland properties to prevent moisture damage.",
-    icon: <Droplets className="w-10 h-10 text-brand-blue" />,
-    imagePath: "/lovable-uploads/3e220ebf-07be-4913-8047-07446025fa55.png",
-    detailDescription: "Our waterproofing services provide crucial protection for wet areas in your home or commercial property. We apply industry-leading membrane systems that create a watertight barrier before tiling. Our team follows New Zealand building code requirements and uses certified waterproofing products that come with manufacturer guarantees. We specialize in shower recesses, bathrooms, laundries, balconies, and other areas prone to water exposure. Our thorough approach includes proper preparation, membrane application, and quality testing to ensure complete water resistance."
+    id: "repairs-maintenance",
+    title: "Repairs & Maintenance",
+    description: "Expert repair and maintenance services to protect your property investment. From weather damage repairs to preventative maintenance for Auckland homes and businesses.",
+    icon: <Wrench className="w-10 h-10 text-brand-blue" />,
+    imagePath: "/lovable-uploads/tiling3.jpg",
+    detailDescription: "Our repairs and maintenance services help preserve your property's condition and value. We address everything from immediate issues like leaks and structural damage to scheduled maintenance that prevents costly problems. Our team provides weather-tightness solutions, structural repairs, decking maintenance, roof repairs, and general property upkeep. We also offer property inspection services to identify potential issues before they become major problems, saving you time and money in the long run."
   }
 ];
 

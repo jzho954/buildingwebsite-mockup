@@ -13,15 +13,15 @@ const AboutSection: React.FC<AboutSectionProps> = ({ showHero = false }) => {
         <div className="relative h-[60vh] w-full overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="/lovable-uploads/tiling.jpg" 
-              alt="Tiling Trove team" 
+              src="/lovable-uploads/builder2.jpg" 
+              alt="Auckland Building team" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black opacity-40"></div>
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-white px-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Our Tiling Journey</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Our Building Journey</h1>
               <p className="text-xl md:text-2xl max-w-3xl mx-auto">
                 Bringing exceptional craftsmanship to Auckland homes and businesses since 2013
               </p>
@@ -37,10 +37,10 @@ const AboutSection: React.FC<AboutSectionProps> = ({ showHero = false }) => {
           <ScrollAnimation animation="fade-in-left">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                With over 10 years of experience transforming Auckland homes and businesses, our team of expert tilers brings craftsmanship and attention to detail to every project.
+                With over 10 years of experience transforming Auckland homes and businesses, our team of expert builders brings craftsmanship and attention to detail to every project.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Based in Auckland, we understand local styles and requirements, specializing in creating beautiful, durable tiling solutions for Kiwi properties.
+                Based in Auckland, we understand local styles and requirements, specializing in creating beautiful, durable building solutions for Kiwi properties.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 From traditional villas in Ponsonby to modern apartments in the CBD, we work closely with our clients to deliver exceptional results that stand the test of time.
@@ -51,8 +51,8 @@ const AboutSection: React.FC<AboutSectionProps> = ({ showHero = false }) => {
           <ScrollAnimation animation="fade-in-right">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/tiling2.jpg" 
-                alt="Auckland Tiler at work" 
+                src="/lovable-uploads/builder.jpg" 
+                alt="Auckland Builder at work" 
                 className="w-full h-full object-cover"
               />
             </div>

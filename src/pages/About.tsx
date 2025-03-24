@@ -22,12 +22,12 @@ const About = () => {
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">Our Mission</h2>
                 <p className="text-gray-700 mb-6">
-                  Our mission is to provide exceptional tiling services that exceed client expectations. 
+                  Our mission is to provide exceptional building, renovation, and repair services that exceed client expectations. 
                   We believe in honest pricing, quality materials, and superior craftsmanship.
                 </p>
                 <p className="text-gray-700">
                   From start to finish, we work closely with our clients to ensure their vision is realized, 
-                  delivering beautiful, functional, and durable tiling solutions for any space.
+                  delivering beautiful, functional, and durable construction solutions for any space.
                 </p>
               </div>
               

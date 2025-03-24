@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -58,7 +57,7 @@ const Navbar = () => {
               isScrolled || location.pathname !== '/' ? 'text-primary' : 'text-white hover:text-gray-200'
             }`}
           >
-            Auckland Tiling
+            Auckland Building
           </Link>
           
           <div className="flex items-center space-x-1 md:space-x-4">
